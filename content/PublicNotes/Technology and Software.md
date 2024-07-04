@@ -53,9 +53,11 @@ Date created: 2023-06-26 19:19
 [[JS && Operator]]
 
 ## Web Development
-[[Static vs Dynamic Websites]]
+[[CSS]]
 [[Angular]]
 [[Vue.js]]
+
+[[Static vs Dynamic Websites]]
 [[React vs Vue]]
 [[SASS vs LESS]]
 [[RESTful API]]
