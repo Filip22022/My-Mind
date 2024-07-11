@@ -104,3 +104,8 @@ input:focus                   /* 0-1-1 */
 ```
 
 In case of two selectors targeting the same element, their specificity is compared based on columns left to right. If a selector has a bigger value in the id column, it wins the comparison regardless of the values in class and element columns.
+
+>[!info]
+>Inline Styles always have the highest specificity unless `!important` is used
+>
+
