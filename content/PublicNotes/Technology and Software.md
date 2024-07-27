@@ -71,3 +71,6 @@ Date created: 2023-06-26 19:19
 
 ## Networks
 [[Port Forwarding]]
+
+## Operating Systems
+[[Widows Linux Compatibility]]

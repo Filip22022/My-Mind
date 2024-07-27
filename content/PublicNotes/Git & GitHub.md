@@ -29,12 +29,19 @@ Git commands I forget too often
 `git config --global push.autoSetupRemote true`
 #### Rename Branch
 `git branch -m <new name>`
+
+#### Delete Branch
+`git branch -d <branch-name>`
 #### Move Uncommitted Changes to a New Branch
 `git switch -c <new-branch>`
 #### Get All Changes from Another Branch
 ```bash
 git checkout clean_branch
 git merge --squash changed_branch
+```
+#### Create Local Branch from Remote Branch
+```Shell
+git checkout -b <new_branch_name> <remote_name>/<remote_branch_name>
 ```
 
 ### Commits

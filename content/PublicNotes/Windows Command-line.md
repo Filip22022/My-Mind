@@ -38,6 +38,19 @@ Sometimes I find myself in the need to use cmd for something more complicated th
 #### Activate Privileges from Open Cmd
 `runas /user:<admin username> cmd`
 
+### Network
+
+#### Find all processes and ports
+```
+netstat -a -b
+```
+#### Find Process Running on Port
+
+
+### Programs
+#### run exe file
+`start <file>`
+
 
 ---
 [[Command Line Interface]]

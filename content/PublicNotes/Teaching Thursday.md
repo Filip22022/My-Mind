@@ -14,6 +14,7 @@ We meet and give presentations, educate each other on interesting topics
 - emotional regulation
 - Big Five personality traits - [[OCEAN Model]]
 - Daily highlight technique
+- healthy diet
 ## Presentations
 
 September 2023 - [[Personal Finance]] 
@@ -27,3 +28,4 @@ December 2023
 
 Other 
 	[[Taxes in Poland]]
+	[[Losing Weight]]
