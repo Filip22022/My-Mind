@@ -41,11 +41,9 @@ Sometimes I find myself in the need to use cmd for something more complicated th
 ### Network
 
 #### Find all processes and ports
-```
-netstat -a -b
-```
+`netstat -a -b`
 #### Find Process Running on Port
-
+`netstat -aof | findstr :8080`
 
 ### Programs
 #### run exe file

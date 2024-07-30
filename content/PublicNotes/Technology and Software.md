@@ -10,6 +10,7 @@ Date created: 2023-06-26 19:19
 ## Tools
 [[Git & GitHub]]
 [[Windows Command-line]]
+[[Zsh Shell]]
 [[Node.js]]
 [[MySql]]
 
