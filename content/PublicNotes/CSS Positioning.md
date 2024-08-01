@@ -15,7 +15,7 @@ The `position` property defines the element placement in the document. It can ta
 - `static` (default) - appears in it's  html location
 - `relative` - allows the use of *offset* properties of `top`, `right`, `bottom` and `left` to alter the element position from it's default static position
 - `absolute` - removes the element from the static flow, rendering the element on top. Makes other elements ignore it and position like it's not on the page. The element will be positioned relatively to it's closes ancestor with `relative` positioning and *offset properties* can be used.
-- `fixed` - removed from the static flow, rendering on top of other elements. Positioned relatively to the document page, making it appear in the same spot of the screen 
+- `fixed` - removed from the static flow, rendering on top of other elements. Positioned relatively to the document page, making it appear in the same spot of the screen. Position using `top`, `right`, `bottom` and `left`
 - `sticky` - the element is treated as relative, but only inside it's parent element
 \
 
