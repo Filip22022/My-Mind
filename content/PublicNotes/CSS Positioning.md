@@ -18,6 +18,8 @@ The `position` property defines the element placement in the document. It can ta
 - `fixed` - removed from the static flow, rendering on top of other elements. Positioned relatively to the document page, making it appear in the same spot of the screen. Position using `top`, `right`, `bottom` and `left`
 - `sticky` - the element is treated as relative, but only inside it's parent element
 \
+### Positioning static elements
+
 
 ## `z-index`
 
