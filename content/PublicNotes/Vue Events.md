@@ -40,6 +40,12 @@ emit('enlarge-text')
 </script>
 ```
 
+## Event Arguments
+
+To emit an argument alongside an event we can pass extra arguments to `$emit`
+```css
+<button @click="$emit('increaseBy', 1)"> Increase by 1 </button>
+```
 
 ## Event Handler Types
 ### Inline Event Handlers
@@ -52,6 +58,11 @@ const count = ref(0)
 ```vue
 <button @click="count++">Add 1</button>
 <p>Count is: {{ count }}</p>
+```
+
+To accept arguments in inline handlers we can use arrow functions:
+```css
+<MyButton @increase-by="(n) => count += n" />
 ```
 
 ### Method Event Handlers
@@ -75,6 +86,8 @@ function greet(event) {
 
 To be treated as method handler need to be in one of the forms `foo`, `foo.bar` or `foo['bar']`. As `foo()` would be treated as an inline handler
 
+Emitted arguments will be passed to method handlers as function arguments.
+
 ### Calling Methods in Inline Handlers
 
 Methods can also be called in an inline handler, allowing us to pass custom arguments instead of native events
@@ -86,7 +99,7 @@ function say(message) {
 ```
 
 ```vue
-<button @clisk="say('hello')">Say hello</button>
+<button @click="say('hello')">Say hello</button>
 ```
 
 ## Accessing the DOM Event

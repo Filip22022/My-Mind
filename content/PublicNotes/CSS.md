@@ -19,3 +19,4 @@ Cascading Style Sheets (CSS) is a language used to describe the style of a HTML 
 [[CSS Flexbox]] 
 [[CSS Grid]]
 [[CSS Transitions]]
+[[CSS Variables]]

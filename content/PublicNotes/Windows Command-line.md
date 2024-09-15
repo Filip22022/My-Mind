@@ -1,7 +1,7 @@
 ---
 title: Windows Command-line
 Date created: 2024-04-15 12:25
-Aliases:
+Aliases: cmd
 tags: 
   - Public
 ---

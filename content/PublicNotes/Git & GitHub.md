@@ -34,19 +34,25 @@ Git commands I forget too often
 `git branch -d <branch-name>`
 #### Move Uncommitted Changes to a New Branch
 `git switch -c <new-branch>`
+#### Move Uncommitted Changes to an Existing Branch
+`git switch -c <new-branch>`
 #### Get All Changes from Another Branch
 ```bash
 git checkout clean_branch
 git merge --squash changed_branch
 ```
 #### Create Local Branch from Remote Branch
-```Shell
-git checkout -b <new_branch_name> <remote_name>/<remote_branch_name>
-```
+`git checkout -b <new_branch_name> <remote_name>/<remote_branch_name>`
+
+#### Move Branch to Start at Current Master State
+`git rebase master` (on feature branch)
 
 ### Commits
 #### Remove File from Commit
 `git reset <file>`
+
+#### See Commit History
+`git log --pretty=oneline`
 
 ### Repository Configuration
 
