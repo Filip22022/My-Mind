@@ -8,7 +8,7 @@ tags:
 
 Ref Objects are wrappers for values in [[Vue.js]] that track the changes to a variable to make it reactive
 
-see also [[Vue Template Refs]]
+see also [[Vue Template Refs]], [[Vue Computed Properties]] 
 ## Declaring a Reactive State
 Declaring is done using the `ref()` function which wraps the argument within a ref object with a `.value` property
 ```js

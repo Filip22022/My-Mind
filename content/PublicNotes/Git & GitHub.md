@@ -58,6 +58,10 @@ git merge --squash changed_branch
 
 repository configuration is stored in a `.gitattributes` file in the repository root
 
+#### Disable Auto Setting CRLF
+```bash
+git config --global core.autocrlf false
+```
 #### Change Repository Eol to LF
 `<files> <type> eol=<encoding>`
 `*.py text eol=lf`
